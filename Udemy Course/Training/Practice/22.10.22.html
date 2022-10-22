@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!-- Exercises using tables, inputs and more :) -->
+<html lang="en-US">
+
+<head>
+    <meta name="authors" content="Murarasu Matei - George">
+    <meta name="Contents" content="This website aims to help me practice what i've learnt in Udemy">
+    <title>Tables and More</title>
+</head>
+
+<body>
+    <header>
+        <h1 style="text-align:center">The new Year Dilemma</h1>
+        <hr>
+    </header>
+    <main>
+        <section>
+            <!-- Main article Page -->
+            <h2>What exactly happened?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quaerat, temporibus, accusamus
+                suscipit,distinctio magnam aperiam sint accusantium quo animi officiis. Placeat rerum, deserunt adipisci
+                incidunt voluptas quibusdam eveniet excepturi?</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Noum%C3%A9a_Phare_Am%C3%A9d%C3%A9e.JPG/300px-Noum%C3%A9a_Phare_Am%C3%A9d%C3%A9e.JPG"
+                alt="lighthouse on the beach">
+            <p>If often used, this actually resolves using a norm protocol caller <b>HATCH</b>, mostly described using
+                interesting types of lorem ipsum.</p>
+            <p>More often than not, we can use links and styles to actually improve our website, but we can also use
+                different templates and sites to learn and improve at different things as well &hearts;</p>
+        </section>
+        <hr>
+        <section>
+            <h2>So what exactly can we achieve here?</h2>
+            <p>Let me illustrate through a nice table that I've created for you :</p>
+            <table>
+                <thead>
+                    <!-- Heading of the Table -->
+                    <tr>
+                        <th colspan="2">DATE PERSONALE</th>
+                        <th rowspan="2">CNP</th>
+                        <th colspan="3">MORE DATA IN ABOUT HERE</th>
+                    </tr>
+                    <tr>
+                        <th>Nume</th>
+                        <th>Prenume</th>
+                        <th>Adresa</th>
+                        <th>Telefon</th>
+                        <th>Suma de bani acordata</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Contents of the Table -->
+                    <tr>
+                        <td>Andrei</td>
+                        <td>Marian</td>
+                        <td>5012020120321321</td>
+                        <td>Victoriei nr 340 Suceava</td>
+                        <td>0752923</td>
+                        <td>5000000000</td>
+                    </tr>
+                    <tr>
+                        <td>George</td>
+                        <td>Martin</td>
+                        <td>50120201203321</td>
+                        <td>Galosului nr 3402 Suceava</td>
+                        <td>07529213223</td>
+                        <td>50000000213123100</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <!-- Footer of The Table -->
+                    <tr>
+                        <th colspan="9">This section of the table is allowed to be used in some restriced areas of the
+                            International. </th>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <hr>
+        <!-- Linkage,Inputs and More -->
+        <section>
+            <h2>When do we use some user data and user forms?</h2>
+            <button a>Try to find out</button>
+            <!-- Credentials -->
+            <form action="/sent">
+                <p>When Writing user data, is important to figure out how and when to write, like so. Write your
+                    credentials input boxes below :) </p>
+                <div>
+                    <label for="usernm">What should you write?</label>
+                    <input type="text" name="username" id="usernm" placeholder="Enter Your username here" minlength="5"
+                        maxlength="15" required>
+                </div>
+                <div>
+                    <label for="pswrd">Enter a strong password</label>
+                    <input type="password" name="password" id="pswrd" minlength="5 required">
+                </div>
+                <div>
+                    <label for="usernm">No data will be sent :p</label>
+                    <input type="text" name="surname" id="surnm" placeholder="Enter your surname here" required>
+                </div>
+                <div>
+                    <label for="lastnm">Etner your LastName</label>
+                    <input type="text" name="lastname" id="lastnm" placeholder="Enter your lastname here " required>
+                </div>
+                <div>
+                    <label for="bck_clr">Choose Background color.</label>
+                    <input type="color" name="color" id="bck_clr"><br>
+                    <label for="frg_clr">Choose Foreground color.</label>
+                    <input type="color" name="color" id="frg_clr"><br>
+                    <label for="txt_clr">Choose Text color.</label>
+                    <input type="color" name="color" id="txt_clr">
+                </div>
+                <div>
+                    <label for="pwr_rng">Enter your power meter</label>
+                    <input type="range" name="" id="pwr_rng" min="1" max="1000" step="5">
+                </div>
+                <div>
+                    <select name="Size of ur skills" id="skll_sz">
+                        <option value="nmch">Not Much</option>
+                        <option value="brbl">Bereable</option>
+                        <option value="lts">Lots</option>
+                        <option value="afckton">A fuck ton</option>
+                        <option value="infine">Infinite Literally</option>
+                        <option value="godlvl">God Level</option>
+                    </select>
+                </div>
+                <hr>
+                <div>
+                    <p>What is your clothing size?</p>
+                    <label for="sz_xs">XS</label>
+                    <input type="radio" name="size" id="sz_xs">
+                    <label for="sz_s">S</label>
+                    <input type="radio" name="size" id="sz_s">
+                    <label for="sz_m">M</label>
+                    <input type="radio" name="size" id="sz_m">
+                    <label for="sz_l">L</label>
+                    <input type="radio" name="size" id="sz_l">
+                    <label for="sz_xl">XL</label>
+                    <input type="radio" name="size" id="sz_xl">
+                    <label for="sz_xxl">XXL</label>
+                    <input type="radio" name="size" id="sz_xxl">
+
+                </div>
+                <hr>
+                <div>
+                    <p>Do you have any feedback? Write down below</p>
+                    <textarea name="FeedbackText" id="feedbck" cols="30" rows="10"
+                        placeholder="Write over the gray text"></textarea>
+                </div>
+                <button>Sumbit Information</button>
+            </form>
+            <a href="/Udemy Course/Training/Practice/17.10.22.html"><button>I'm feeling lucky :)</button></a>
+        </section>
+    </main>
+    <hr>
+    <!-- Contact information -->
+    <footer>
+        <h2>Want to contact me? Here's some options available to you :)</h2>
+        <a href="17.10.22.html"><button>&lt;&lt;</button></a>
+        <a href="https://www.facebook.com/matei.murarasu/"><button>Add me on <b>Facebook</b></button></a>
+        <a href=https://github.com/matei-george"><button>Watch me code on <b>Github</b></button></a>
+        <a href="mailto:mateimurarasu@yahoo.com"><button>Send me an <b>E-Mail</b></button></a>
+        <button>&gt;&gt;</button>
+    </footer>
+</body>
+
+</html>
