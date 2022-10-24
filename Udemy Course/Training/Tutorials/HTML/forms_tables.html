@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="Authors:" content="Murarasu Matei - George">
+    <meta name="Contents :" content="This website aims to help me learn web development">
+    <title>Forms and Tables</title>
+</head>
+
+<body>
+    <h1>this is a webiste.</h1>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Nume</th>
+                <th colspan="2">Greutate</th>
+                <th rowspan="2">Zboara?</th>
+            </tr>
+            <tr>
+                <th>KG</th>
+                <th>LBS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ostrich</td>
+                <td>104</td>
+                <td>230</td>
+                <td>no</td>
+            </tr>
+            <tr>
+                <td>Ostrich2</td>
+                <td>150</td>
+                <td>(250)</td>
+                <td>no</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Formulare</h2>
+    <form action="https://www.google.com/search">
+        <div>
+            <label for="username">Enter Your username</label>
+            <input type="text" placeholder="Username" id="username" name="username">
+        </div>
+        <div>
+            <label for="password">Enter Your password</label>
+            <input type="password" id="password">
+        </div>
+        <div>
+            <label for="color">Choose your color</label>
+            <input type="color" id="color">
+        </div>
+        <div>
+            <label for="date">Choose the date</label>
+            <input type="date" id="date">
+        </div>
+        <button>submit</button>
+    </form>
+    <h2>Formular2</h2>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>Search on Google</button>
+    </form>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query">
+        <button>Watch on YouTube :)</button>
+    </form>
+    <h2>More inputs</h2>
+    <form action="/idk">
+        <div>
+            <input type="checkbox" name="TOS" id="agree">
+            <label for="agree">I do not consent.</label>
+        </div>
+        <div>
+            <label for="drone">Choose ur hero</label>
+            <input type="radio" name="option2" id="drone" value="drone">
+            <input type="radio" name="option2" id="drones">
+            <input type="radio" name="option2" id="droness">
+        </div>
+        <div>
+            <label for="dress">Select a nice dress</label>
+            <select name="dress" id="dress">
+                <option value="">Please choose</option>
+                <option value="white">White Dress</option>
+                <option value="black">Black Dress</option>
+                <option value="blue">Blue Dress</option>
+                <option value="red">Red Dress</option>
+            </select>
+        </div>
+        <div>
+            <label for="feedback">Any feedback?</label>
+            <textarea name="Feedback" id="feedback" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="user">Username?</label>
+            <input type="text" name="username" id="user" required minlength="4" maxlength="10">
+        </div>
+        <button>submit</button>
+    </form>
+    <hr>
+    <h1>The comment shortcut is CTRL + &frasl;</h1>
+    <h1>The duplicate line shortcut is SHIFT+ALT+UP &frasl; DOWN</h1>
+</body>
+
+</html>
