@@ -4,9 +4,9 @@ body{
 h1{
     color:rgb(27, 138, 236);
     text-align: center;
-    text-decoration: crimson wavy underline;
     letter-spacing: 5px;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: black wavy underline;
 
 }
 h2{
@@ -32,4 +32,9 @@ a{
     color:black;
     text-transform: uppercase;
     font-weight: bold;
+}
+label{
+    color:rgb(34, 212, 14);
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
 }

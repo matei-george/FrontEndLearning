@@ -1,0 +1,71 @@
+body{
+    background-color: #d2a1b8;
+}
+#title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color:#62c;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+.formdata button{
+    background-color: blue;
+    color: chartreuse;
+}
+.inputs{
+    background-color: darkslategray;
+    color:whitesmoke;
+}
+h2{
+    text-align: center;
+    font-family: initial;
+    color: #62c;
+    letter-spacing: 1px;
+    text-decoration: dotted underline;
+}
+.frstsec p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.frstsec p::first-line{
+    color:crimson;
+}
+.frstsec p::first-letter{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.frstsec p::selection{
+    background-color: #d1d716;
+}
+.secndsec a{
+    text-decoration: none;
+}
+.secndsec a:hover{
+    background-color: crimson;
+}
+.secndsec button{
+    margin-left: 150px;
+    background-color: teal;
+    color:whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+.secndsec button:active{
+    background-color: crimson;
+    color:black;
+}
+input[type="checkbox"]:checked{
+    color: aquamarine;
+}
+.thrdsec a{
+    text-decoration: none;
+}
+.thrdsec a::before{
+    content: "<<";
+    color:#d1d716;
+}
+.thrdsec a::after{
+    content: ">>";
+    color:#d1d716;
+}
+.thrdsec a:hover{
+    background-color: #d1d716;
+}
