@@ -1,0 +1,39 @@
+body{
+    background-color: bisque;
+}
+h1{
+    text-align: center;
+    color:firebrick;
+    text-decoration: blue wavy underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 3px;
+}
+.sectiune1 p{
+    color: blue;
+}
+.sectiune1 a{
+    text-decoration: none;
+}
+.sectiune1 a:hover{
+    background-color: aqua;
+    font-weight: bold;
+    font-size: large;
+    letter-spacing: 10px;
+}
+.sectiune1 a:active{
+    font-weight: bold;
+    font-size: large;
+    letter-spacing: 10px;
+}
+.sectiune2 button{
+    background-color: black;
+    color:blueviolet;
+}
+.sectiune2 button:active{
+    background-color: aquamarine;
+    color:brown;
+}
+h2{
+    color: rgb(82, 143, 21);
+    text-align: center;
+}
