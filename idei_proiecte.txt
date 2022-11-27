@@ -1,0 +1,8 @@
+
+TODO : Adauga mai multe idei de proiecte
+
+[ --- Idei de proiecte pentru mai tarziu --- ]
+    - Price Fetcher -->  program CLI care trage preturile unui produs si le stocheaza intr-o baza de date. Windows si Linux
+    - zacus.ca --> Site troll care contine diferite borcane de zacursa cu href-uri catre 
+    - pat.eu --> Acelasi concept ca in cazul site-ului zacus.ca
+    - 
