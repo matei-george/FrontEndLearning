@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+    TODO : - Pagina care sa contina si sa fie:
+            * Formular cu butoane, slidere, pickere si paragrafe, pagina cuvinte de stilizat [ x ]
+            * Utilizarea tuturor metodelor de CSS invatate pana acum, precum si proprietati [  ]
+ -->
+
+<head>
+    <meta name="authors" content="Murarasu Matei - George">
+    <meta name="description" content="This website is a revision of things that i've learnt so far">
+    <title>Recapitulare</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Lucruri pe care le-am invatat pana acum</h1>
+    </header>
+    <main>
+        <section class="fsection">
+            <h2>Acestea sunt cateva dintre lucrurile pe care le-am invatat pana acum:</h2>
+            <h3>Ce reprezinta Lorem Ipsum?</h3>
+            <p><span>Lorem ipsum</span> este un text super estetic care este folosit adesea in design web precum si in
+                design UI/UX
+                cu ajutorul caruia designul final poate fi vizualizat cu mai multa usurinta. In HTML, lorem ipsum este
+                folosit cu ajutorul comenzii lorem si cu factorul de inmultire <sup>*</sup> putem sa specificam ce
+                lungime trebuie sa aiba fiecare paragraf lorem.
+            </p>
+            <h3>De exemplu</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui magnam a dolorem itaque voluptatibus. Modi
+                quisquam, facere suscipit quod quibusdam nesciunt voluptas facilis fuga, culpa laudantium doloribus,
+                mollitia magni deserunt.</p>
+        </section>
+        <hr>
+        <section class="formsection">
+            <h3>Aceasta sectiune reprezinta un scurt formular de introducere a preferintelor</h3>
+            <form action="#nowhere">
+                <div>
+                    <label for="usernm">Username</label>
+                    <input type="text" name="username" id="usernm" required placeholder="Te rog introdu un username">
+                    <label for="passwd">Parola</label>
+                    <input type="password" name="password" id="passwd" required placeholder="Te rog introdu o parola"
+                        minlength="5" maxlength="15">
+                </div>
+                <div>
+                    <p>Ce marca de masini iti place?</p>
+
+                    <input type="radio" name="radio" id="rad1">
+                    <label for="rad1">AUDI</label>
+                    <input type="radio" name="radio" id="rad2">
+                    <label for="rad2">BMW</label>
+                    <input type="radio" name="radio" id="rad3">
+                    <label for="rad3">VW</label>
+                    <input type="radio" name="radio" id="rad4">
+                    <label for="rad4">Passat :))</label>
+                </div>
+                <div>
+                    <p>Introdu cateva dintre preferintele tale : </p>
+                    <label for="clrpick">Culoarea mea preferata este : </label>
+                    <input type="color" name="colorpick" id="clrpick"><br>
+                    <label for="datanastere">Data mea de nastere este : </label>
+                    <input type="date" name="datanastere" id="datanstere"><br>
+                    <select name="inaltime" id="inaltime">
+                        <option selected="true" disabled="disabled">Selecteaza o optiune de aici</option>
+                        <option value="150">150cm</option>
+                        <option value="160">160cm</option>
+                        <option value="170">170cm</option>
+                        <option value="180">180cm</option>
+                    </select><br>
+                    <label for="pwrlvl">Ce power level ai?</label>
+                    <input type="range" name="powerlevel" id="pwrlvl" min="10" max="10000" step="10">
+                </div>
+                <button type="submit">Trimite datele</button>
+            </form>
+        </section>
+        <hr>
+        <section class="styleandlink">
+            <h3> Aceasta sectiune prezinta elemente ce vor fi stilizate</h3>
+            <p>Lucruri cu ajutorul carora invat lucruri interesante</p>
+            <ul>
+                <li><a href="https://www.google.com">Google</a></li>
+                <li><a href="https://www.youtube.com">YouTube</a></li>
+                <li><a href="https://stackoverflow.com/">StackOverflow</a></li>
+                <li><a href="https://store.steampowered.com">Steam</a></li>
+                <li><a href="/README.md">Catre ridme</a></li>
+            </ul>
+            <p>Ce lucruri trebuie sa recapitulez si sa invat in aceasta vacanta?</p>
+            <ol>
+                <li>&hearts; HTML si CSS si eventual JS &hearts;</li>
+                <li>Java</li>
+                <li>Desenat</li>
+                <li>Creative Coding</li>
+            </ol>
+            <p>Pe ce doresc eu sa dau banii?</p>
+            <ul id="nicelist">
+                <li>Dau niste</li>
+                <li>bani</li>
+                <li>pe</li>
+                <li>ceaiucul de dimineata &heartsuit;</li>
+            </ul>
+        </section>
+        <hr>
+        <footer class="footer">
+            <h3>Pentru informatii aditionale, nu ezitati sa ma contactati :)</h3>
+            <h3>Ma gasiti pe</h3>
+            <p>
+                <span><a href="https://www.facebook.com" target="_blank">Facebook</a></span>
+                <span><a href="https://www.github.com" target="_blank">Github</a></span>
+                <span><a href="https://store.steampowered.com" target="_blank">Steam</a></span>
+            </p>
+            <button><a href="index.html">Refresh la pagina ue.</a></button>
+        </footer>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,135 @@
+/* Stilizarea tuturor elementelor cu ajutorul minunatului css */
+body{
+    background-color: #d1b3c4;
+}
+/* Utilizarea selectorilor direct child */
+header>h1{
+    color: #649d6d;
+    text-align: center;
+    text-decoration: wavy underline;
+    font-family: Source Code Pro,monospace;
+    font-weight: lighter;
+}
+.fsection h2{
+    color: #b3e9c7;
+    text-align: center;
+    font-family: Source Code Pro,monospace;
+    font-size: 20px;
+    text-decoration: dotted underline;
+}
+.fsection h3{
+    color:#825cf4;
+    font-family: Source Code Pro,monospace;
+    font-weight: lighter;
+
+}
+.fsection span,sup{
+    font-weight: bold;
+    color:greenyellow;
+}
+/* Utilizarea selectorilor adiacenti ( combinatori ) */
+h3+p{
+    font-family: Helvetica;
+    color:rgb(82, 82, 82)
+}
+/* Sectiunea de formular */
+.formsection h3{
+    color:#825cf4;
+    font-family: Source Code Pro,monospace;
+    font-weight: lighter;
+    text-align: center;
+    text-decoration: white dotted underline;
+}
+.formsection input[type="text"],input[type="password"]{
+    background-color: #b097fb;
+    color: crimson;
+}
+.formsection input[type="text"]::placeholder,input[type="password"]::placeholder{
+    color:#374a67;
+}
+.formsection label{
+    color:#374a67;
+    font-family: Source Code Pro,monospace;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+.formsection select{
+    background-color: #b097fb;
+    color: crimson;
+    font-weight: lighter;
+}
+.formsection button{
+    background-color: #b097fb;
+    color: crimson;
+    font-family: Source Code Pro,monospace;
+    font-weight: lighter;
+}
+.formsection button:hover{
+    background-color: whitesmoke;
+    color: greenyellow;
+    font-family: Source Code Pro,monospace;
+    font-weight: lighter;
+}
+.formsection button:active{
+    background-color: green;
+    color: greenyellow;
+    font-family: Source Code Pro,monospace;
+    font-weight: lighter;
+}
+/* Sectiunea de stilizare a continuturilor */
+.styleandlink h3{
+    color:#825cf4;
+    font-family: Source Code Pro,monospace;
+    font-weight: lighter;
+    font-size: normal;
+    text-align: center;
+    text-decoration: white dotted underline;
+}
+.styleandlink p{
+    font-weight: bold;
+    font-family: Source Code Pro,monospace;
+    color:#374a67;
+}
+p+ul, p+ol{
+    color:white;
+}
+.styleandlink li>a, ol>li{
+    color: #223c63;
+    text-decoration: none;
+    font-size: large;
+}
+.styleandlink li>a:hover{
+    color:white;
+    font-weight: bold;
+}
+#nicelist{
+    letter-spacing: 3px;
+    font-family: IBM 3270,monospace;
+    text-align: center;
+}
+
+/* Footer */
+.footer h3{
+    font-family: Source Code Pro,monospace;
+    color:#374a67;
+    font-size:medium;
+    text-align: center;
+}
+.footer p{
+    text-align: center;
+}
+.footer span>a{
+    color:#374a67;
+    text-decoration: white dotted underline;
+    letter-spacing: 2px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+.footer button{
+    margin-left: 665px;
+    background-color: #b097fb;
+    color: crimson;
+    font-family: Source Code Pro,monospace;
+    font-weight: lighter;
+}
+
