@@ -1,0 +1,95 @@
+body{
+    background-color: #afc1d6;
+}
+/* Exemplu de total element selector*/
+p{
+    font-family: Courier, monospace, monospace;
+    font-size: 15px;
+    font-weight:400;
+}
+/* Exemplu de element selectors */
+header h1{
+    color:white;
+    font-family: Source Code Pro, monospace;
+    font-weight: normal;
+    text-align: center;
+    font-size: normal;
+    text-decoration: whitesmoke underline;
+}
+/* Exemplu de class selector si multiple class selector */
+.title h2{
+    margin-left: 20px;
+    color:#cef9f2;
+    font-family: Source Code Pro, monospace;
+    font-weight: normal;
+    font-size: 20px;
+}
+.title .adjectives{
+    color:#ba274a;
+    font-weight: bold;
+}
+.heading h2{
+    margin-left: 20px;
+    color:#aafcee;
+    font-family: Source Code Pro, monospace;
+    font-weight: normal;
+    font-size: 18px;
+}
+.heading .element h3{
+    font-family: Helvetica, monospace;
+    font-weight: bold;
+    color:#241e4e;
+}
+.heading .element span{
+    color:#ba274a;
+    font-weight: bold;
+}
+.heading li a{
+    font-family: Helvetica, monospace;
+    font-weight: bold;
+    text-decoration: none;
+    color:white;
+}
+.heading div h2{
+    font-family: Helvetica, monospace;
+    font-weight: bold;
+    color:#241e4e;
+}
+/* Exemplu de pseudo-class selector */
+.heading li a:hover{
+    background-color: white;
+    color: #ba274a;
+    font-weight: bold;
+}
+/* Exemplu de ID selector */
+#specformula{
+    text-align: center;
+    font-weight: bold;
+    font-family: IBM3270,monospace;
+    color: #e2ff08;
+}
+.heading p a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+.heading p a:hover{
+    background-color: white;
+    color: #ba274a;
+}
+/* Exemple de element selectors */
+footer p{
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-weight: bold;
+    color:white;
+}
+/* Exemplu de pseudo-class selector */
+footer a:hover{
+    background-color: white;
+    color: #ba274a;
+}

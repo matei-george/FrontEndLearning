@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+    TODO
+        * Website cu practice pentru toate formele de CSS invatate pana acum [ x ]
+        * <Styles.css> - Cat mai multe exemple pentru fiecare selector in parte [  ]
+ -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="authors" content="Murarasu Matei - George">
+    <meta name="Description" content="CSS specificity and more :)">
+    <title>CSS Specificity</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>CSS Selectors and Specificity</h1>
+    </header>
+    <section class="title">
+        <h2>What are CSS Selectors?</h2>
+        <p>CSS selectors are interesting to learn because in order to style a bunch of elements inside the HTML document
+            we
+            have to be ready to <span class="adjectives">select</span> and <span class="adjectives">separate</span> them
+            from the rest of the elements which we do
+            not want to style.</p>
+        <p>There is a whole list of CSS selectors designed to make <span class="adjectives">interesting</span> and <span
+                class="adjectives">exctiting</span>
+            things, but I will test tome right now, below.</p>
+    </section>
+    <hr>
+    <section class="heading">
+        <h2>How many types of selectors are there?</h2>
+        <p>Well, quite a lot, but let's start slow and show everything first.</p>
+        <ol>
+            <li>
+                <div class="element">
+                    <h3>Universal and element selector</h3>
+                    <p>This type of selector is interesting because it selects every possible element that is within the
+                        HTML code.</p>
+                </div>
+            </li>
+            <li>
+                <div class="element">
+                    <h3>The ID selector</h3>
+                    <p>This type of selector is also intresting because it selects something with the given ID.</p>
+                </div>
+            </li>
+            <li>
+                <div class="element">
+                    <h3>The Class Selector</h3>
+                    <p>This type of selector makes a styling based on the class selection of those elements</p>
+                </div>
+            </li>
+            <li>
+                <div class="element">
+                    <h3>Descendant Selector</h3>
+                    <p>This type of selector selects only the elements that are nested inside another element.</p>
+                </div>
+            </li>
+            <li>
+                <div class="element">
+                    <h3>Combinator Selector</h3>
+                    <p>This type of selector selects only the elements that are <span class="adjectives">preceded</span>
+                        by another entity.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="element">
+                    <h3>Direct Child Selector</h3>
+                    <p>This type of selector selects only the elements that are <span class="adjectives">Direct
+                            Children</span> by another
+                        entity.</p>
+                </div>
+            </li>
+            <li>
+                <div class="element">
+                    <h3>Attribute Selector</h3>
+                    <p>This type of selector makes a selection with the elements that have a
+                        <span>specific</span> attribute.
+                    </p>
+                </div>
+            </li>
+        </ol>
+    </section>
+    <hr>
+    <section class="heading">
+        <h2>The different types of CSS elements</h2>
+        <p>There are around 2 different types of different elements</p>
+        <ul>
+            <li><a href="#pselm">Pseudo Elements</a></li>
+            <li><a href="#psclass">Pseudo Classes</a></li>
+        </ul>
+        <ol>
+            <li>
+                <div id="psclass">
+                    <h2>Pseudo Classes</h2>
+                    <p>These type of classes have a particular keyword that represent a particular state of that
+                        selected element, such as: checkboxes, hovered over, first child etc.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div id="pselm">
+                    <h2>Pseudo elements</h2>
+                    <p>These type of elements have a particular keyword that represents a particular part of that
+                        selected element such as: first letter of paragraphs, first line, before and after a paragraph
+                        etc</p>
+                </div>
+            </li>
+        </ol>
+    </section>
+    <hr>
+    <section class="heading">
+        <h2 id="ccdmodel">The CSS Cascade Model</h2>
+        <p>Because CSS is an acronym from Cascade Style Sheets, the order in which those elements are styled actually
+            matters a whole lot, whether we have one stylesheet or not</p>
+    </section>
+    <hr>
+    <section class="heading">
+        <h2>CSS Specificity</h2>
+        <p>There is a general rule that every browser follows, which is focused more around how specific a selection is.
+            The more specific, the more important.</p>
+        <p>The general formula follows is as follows :</p>
+        <h3 id="specformula">ID > CLASS > ELEMENT</h3>
+        <p>This sorta of <span class="adjectives">war</span> applies only when there is a conflict between two
+            selectors. If those two are equal in specificity, because of the <a href="#ccdmodel">CSS Cascade Model</a>,
+            the one which is a the bottom wins.</p>
+    </section>
+    <hr>
+    <footer>
+        <p>Don't forget to contact me for more notes and tutorials</p>
+        <p>
+            <a href="https://www.google.com">Google</a>
+            <a href="https://www.github.com">Github</a>
+            <a href="https://www.store.steampowered.com">Steam</a>
+        </p>
+    </footer>
+</body>
+
+</html>
