@@ -1,0 +1,29 @@
+body{
+    background-color: #fdf0d5;
+}
+header h1{
+    font-family: Source Code Pro,monospace;
+    text-align: center;
+    color:rgb(115, 115, 215);
+    text-decoration: wavy underline;
+}
+.bottomdiv{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+}
+.topdiv{
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+}
+.topdiv p{
+    font-family: Source Code Pro,monospace;
+    justify-content: center;
+    color:white;
+    text-align: center;
+}
