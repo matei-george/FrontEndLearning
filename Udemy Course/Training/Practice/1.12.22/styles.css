@@ -1,0 +1,119 @@
+body{
+    background-color: #f1faee;
+}
+h1{
+    font-family: Source Code Pro,monospace;
+    font-size: 35px;
+    text-decoration: #a8dadc dashed underline;
+    text-align: center;
+}
+.rules{
+    font-family: Source Code Pro,monospace;
+}
+.rules p{
+    font-family: Helvetica;
+    /* The !important attribute overrites the next color change */
+    color: #457b9d !important;
+    color: blue;
+}
+.rules p::first-letter{
+    font-size:larger;
+    margin-left: 50px;
+}
+/* Inheritance Example */
+h2{
+    color:purple;
+    font-family: inherit;
+    text-align: center;
+}
+.borders h2{
+    display: inline-block;
+    font-family: Source Code Pro;
+    color:#457b9d;
+    font-size: larger;
+    letter-spacing: 1px;
+    margin-left: 185px;
+    border-top: 3px #457b9d dotted;
+    border-bottom: 3px #457b9d solid;
+}
+.borders h3{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: white dotted underline;
+    color:gray;
+}
+/* Border styling example */
+.borders div:nth-of-type(1){
+   /* Solid Border */
+   background-color: #ffbe0b;
+   border: 5px #023e8a solid;
+   box-sizing: border-box;
+   border-radius: 15px;
+}
+.borders div:nth-of-type(2){
+    /* Dashed border */
+    margin-top: 10px;
+    background-color: #ffc8dd;
+    border: 5px #023e8a dashed;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.borders div:nth-of-type(3){
+    /* No border */
+    background-color: #dda15e;
+    border: 5px #023e8a none;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.borders div:nth-of-type(4){
+    /* Double border */
+    background-color: #023e8a;
+    border: 5px #ffc8dd double;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.borders div:nth-of-type(5){
+    /* Groove Border */
+    margin-top: 10px;
+    background-color: #9e2a2b;
+    border: 5px #023e8a groove;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.borders div:nth-of-type(6){
+    /* Inset Border */
+    margin-top: 10px;
+    background-color: #e34a2f;
+    border: 5px #3a89ba inset;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+footer h2{
+    font-family: Source Code Pro,monospace;
+    font-size: larger;
+    color:#023e8a;
+    letter-spacing: 1px;
+    text-decoration:2px #9e2a2b wavy underline;
+}
+footer div a{
+    background-color: #ffc8dd;
+    margin-left: 345px;
+    margin-right: -85px;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    color:#023e8a;
+    border: 5px #457b9d groove;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+footer div a:hover{
+    background-color: green;
+    color:#f1faee;
+    /* To unset the border radius */
+    border-radius: unset; 
+    border-color: #f1faee;
+    border-style: inset groove outset ridge;
+    border-top-left-radius: 65%;
+}
