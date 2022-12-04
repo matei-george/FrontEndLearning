@@ -71,6 +71,9 @@ header .navigation a{
     margin:.75rem;
     height: 437.3px;
 }
+.main-section .welcome p{
+    margin: 0 .45rem;
+}
 .main-section .sidebar{
     font-family: Book Antiqua, monospace;
     width: 35.5%;
