@@ -1,0 +1,26 @@
+html{
+    margin:10px
+}
+.top-letter{
+    text-align: end;
+}
+.top-letter #recipient, span{
+    font-weight: bold;
+}
+.top-letter p{
+    margin: .125rem 0;
+}
+.top-letter #date{
+    margin: 1.5rem 0;
+}
+.content .definition+p{
+    margin-left: 2rem;
+}
+.content a{
+    text-decoration: none;
+    font-weight: bold;
+    color:blue;
+}
+footer p{
+    margin: 1.5rem 0;
+}
