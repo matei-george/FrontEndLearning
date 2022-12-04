@@ -1,0 +1,87 @@
+html{
+    margin: 0px;
+    font-size: 20px;
+    font-family: Source Code Pro,monospace;
+}
+body{
+    background-color: #dad7cd;
+}
+section h1{
+    font-size: 1.5rem;
+    border-bottom: 2px groove black;
+    text-align: center;
+    color:#56d140;
+}
+.padding p::first-letter{
+    font-size:1.5rem;
+    font-weight: bold;
+}
+.padding span{
+    color:#f04b50;
+}
+.padding button{
+    background-color: aqua;
+    border: 1px dotted white;
+    padding: 5px 25px;
+    display: inline-block;
+}
+.padding button:active{
+    background-color: black;
+    color:whitesmoke;
+}
+.margin p::first-letter{
+    font-size:1.5rem;
+    font-weight: bold;
+}
+.margin button{
+    background-color: aqua;
+    border: 1px dotted white;
+    margin: 2.25rem;
+    margin-left: 5rem;
+    padding: 1.125rem;
+    display: inline-block;
+}
+.margin button:active{
+    background-color: black;
+    color:whitesmoke;
+}
+.display ol h3{
+    color: #00b4d8;
+}
+.respect{
+    color:green;
+    font-weight: bold;
+}
+.ignore{
+    color:crimson;
+    font-weight: bold;
+}
+.display ol a{
+    text-decoration: none;
+    display: block;
+    margin-left: 50px;
+    padding-top: 10px;
+    color: #7244fc;
+}
+.display ol h4{
+    font-weight: lighter;
+    font-size: 1.23rem;
+    display: inline;
+    margin-right: 2rem;
+    color: #0f595c;
+}
+.display .inline-block{
+    display: inline-block;
+    margin-top: 2rem;
+    padding-left: 3rem;
+    font-weight: bold;
+    color:#d62828;
+}
+.relative-units ul h3{
+    color: #00b4d8;
+    border: 2px groove red;
+    margin: .5rem 14rem;
+    text-align: center;
+    border-radius: 1.5rem;
+    padding: .25rem 2rem;
+}

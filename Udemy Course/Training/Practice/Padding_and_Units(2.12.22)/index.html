@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="authors" content="Murarasu Matei - George">
+    <meta name="content" content="This website aims to learn me about padding and units">
+    <title>Padding and Units</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section>
+        <h1>Padding and Units</h1>
+    </section>
+    <section class="padding">
+        <p>Padding is the space between the <span>border</span> and the <span>content area</span>.</p>
+        <button>This button is padded</button>
+    </section>
+    <hr>
+    <section class="margin">
+        <p>Margin is the space outside of the border.</p>
+        <button>This button has a big margin</button>
+    </section>
+    <hr>
+    <section class="display">
+        <p>Display controls how an entity is viewed by the browser.</p>
+        <p>The multiple types of entities are :</p>
+        <ol>
+            <li>
+                <h3>Block</h3>
+                <p>Width, Height, Padding and Margin are <span class="respect">respected</span></p>
+                <a href="">This is a link</a>
+                <a href="">This is another link</a>
+            </li>
+            <li>
+                <h3>Inline</h3>
+                <p>Width, Height are <span class="ignore">Ignored</span></p>
+                <h4>This is an H4</h4>
+                <h4>This is another H4</h4>
+            </li>
+            <li>
+                <h3>Inline-Block</h3>
+                <p>Behaves like an inline level entity, but block-level properties are <span
+                        class="respect">respected</span></p>
+                <span class="inline-block">This is span</span>
+                <span class="inline-block">This is another span</span>
+            </li>
+        </ol>
+    </section>
+    <hr>
+    <section class="relative-units">
+        <p>The 2 most common types of relative units are :</p>
+        <ul>
+            <li>
+                <h3>Em</h3>
+                <p>Is a relative unit that relates to some other value, usually of the parent value, sometimes of the
+                    element itself</p>
+            </li>
+            <li>
+                <h3>Rem</h3>
+                <p>Is a relative unit that also relates to some other value, but only the root elements value.</p>
+            </li>
+        </ul>
+    </section>
+</body>
+
+</html>
