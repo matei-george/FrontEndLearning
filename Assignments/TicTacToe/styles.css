@@ -2,7 +2,7 @@ body{
     background-color: #F6F7EB ;
 }
 h1{
-   
+   user-select: none;
     margin:auto;
     text-align: center;
     font-family: Agency FB;
