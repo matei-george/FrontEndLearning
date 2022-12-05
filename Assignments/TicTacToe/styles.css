@@ -1,0 +1,31 @@
+body{
+    background-color: #F6F7EB ;
+}
+h1{
+   
+    margin:auto;
+    text-align: center;
+    font-family: Agency FB;
+    color:#9b9d83;
+    margin-bottom: 20px;
+    margin-top:10%;
+    border: 1px solid;
+    width: 30%;
+    border-radius: 15px;
+}
+table{
+    border-collapse: collapse;
+    width: 350px;
+    height: 350px;
+    margin:auto;
+    border: 1px solid #F6F7EB;
+}
+td:hover,h1:hover{
+    background-color: #C8D5B9;
+}
+td:active,h1:active{
+    background-color: #4A7C59;
+}
+td{
+    border: .5px solid #8FC0A9;
+}
