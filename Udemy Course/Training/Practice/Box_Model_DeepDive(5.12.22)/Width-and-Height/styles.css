@@ -1,0 +1,86 @@
+/* Main page Styling */
+html{
+    font-size:15px;
+    font-family: Constantia, Source Code Pro,monospace;
+}
+body{
+    background-color: #e9edc9;
+}
+h1{
+    text-align: center;
+}
+
+/* ------------------ */
+/* Section Styling */
+.width,.height{
+    text-align: center;
+    background-color: #a3b18a;
+    padding: .5rem;
+    margin-bottom: .5rem;
+}
+.width h2,.height h2{
+    color:#283618;
+    text-decoration: #e9edc9 dotted underline;
+}
+
+/* ------------------ */
+/* Width Div Styling */
+.width div:nth-of-type(1){
+    margin:auto;
+    background-color: #699868;
+    width: 150px;
+}
+.width div:nth-of-type(2){
+    background-color: #75A175;
+    width:50%;
+    margin:auto;
+}
+.width div:nth-of-type(3){
+    margin:auto;
+    background-color: #8EB28E;
+    width:15rem;
+    width: max-content;
+}   
+.width div:nth-of-type(4){
+    margin:auto;
+    background-color: #B4CCB4;
+    border:3px solid black;
+    box-sizing: border-box;
+    width: 10rem;
+}
+.width div:nth-of-type(5){
+    margin:auto;
+    background-color: #CDDDCD;
+    width: min-content;
+}
+
+/* ------------------ */
+/* Height Div Styling */
+.height div:nth-of-type(1){
+    margin:auto;
+    background-color: #699868;
+    height: 50px;
+}
+.height div:nth-of-type(2){
+    margin:auto;
+    background-color: #75A175;
+    border: 3px solid black;
+    height: 30%;
+}
+.height div:nth-of-type(3){
+    margin:auto;
+    background-color: #8EB28E;
+    height: 10rem;
+}   
+.height div:nth-of-type(4){
+    margin:auto;
+    background-color: #B4CCB4;
+    height: 150px;
+    height: auto;
+    width: max-content;
+}
+.height div:nth-of-type(5){
+    margin:auto;
+    background-color: #CDDDCD;
+    height: min-content;
+}
