@@ -1,0 +1,108 @@
+/* Main document styling */
+html{
+    font-size: 15px;
+}
+body{
+    background-color: #BBC8CA;
+    font-family: Leelawadee,monospace;
+}
+h1{
+    text-align: center;
+    width: max-content;
+    margin: auto;
+    margin-bottom: 2rem;
+    color:#51696a;
+    text-decoration: 5px dotted underline;
+}
+section{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1rem;
+    background-color: #72BDA3;
+    height: 20rem;
+    /* Width - 734px */
+}
+div{
+    margin: 5px 0;
+}
+h2{
+    margin: 4% 0;
+    text-decoration: solid underline;
+}
+
+/* ---------------- */
+/* Padding Styling */
+.padding div:nth-of-type(1){
+    background-color: #48997C;
+    color:whitesmoke;
+    padding: 1rem;
+}
+
+.padding div:nth-of-type(2){
+    background-color: #3B7D66;
+    color:whitesmoke;
+    padding: 5% 1%;
+    /* 10% of the containing block width = 73px */
+}
+
+.padding div:nth-of-type(3){
+    background-color: #2E614F;
+    color:whitesmoke;
+    padding: 1rem 10% 1.25rem;
+}
+
+.padding div:nth-of-type(4){
+    background-color: #214539;
+    color:whitesmoke;
+    padding: 5px 30% 1rem 0;
+}
+
+
+/* ---------------- */
+/* Margin Styling */
+.margin div:nth-of-type(1){
+    background-color: #48997C;
+    color:whitesmoke;
+    margin: 1rem .5rem;
+}
+.margin div:nth-of-type(2){
+    background-color: #3B7D66;
+    color:whitesmoke;
+    margin: 10%;
+    /* 10% of the containing block width = 73px */
+}
+.margin div:nth-of-type(3){
+    background-color: #2E614F;
+    color:whitesmoke;
+    margin: 10px 25% 10px;
+}
+.margin div:nth-of-type(4){
+    background-color: #214539;
+    color:whitesmoke;
+    margin: 1rem 30% 0 15%;
+}
+
+/* ---------------- */
+/* Display Styling */
+.display div:nth-of-type(1){
+    background-color: #48997C;
+    color:whitesmoke;
+    display: block;
+    margin:0 10%;
+    margin-bottom:5px;
+}
+.display div:nth-of-type(2),.display div:nth-of-type(3){
+    background-color: #3B7D66;
+    color:whitesmoke;
+    display: inline;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.display div:nth-of-type(4){
+    background-color: #2E614F;
+    color:whitesmoke;
+    display: inline-block;
+    margin:50px 50px 50px 0;
+    padding: 50px 150px;
+    width: max-content;
+}
