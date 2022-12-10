@@ -1,0 +1,27 @@
+body{
+    background-color: beige;
+    height: 400px;
+    font-family: "Noto Sans";
+}
+.Parent{
+    display: flex;
+    background-color: crimson;
+    height: 90%;
+    width: 90%;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.Parent div{
+    display: inline-block;
+    background-color: blue;
+    width: 90%;
+    height: 90%;
+    margin:0 10px;
+    padding-left: 15px;
+    border-radius: 15px;
+    padding-top: 15px;
+}
+p{
+    color: whitesmoke;
+}
