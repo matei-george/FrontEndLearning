@@ -1,0 +1,29 @@
+body{
+    font-family: sans-serif;
+}
+
+#assignment-instructions{
+    color:grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+code{
+    font-family: monospace;
+    color:red;
+}
+
+.second-li code{
+    color:blue;
+}
+
+li{
+    font-family: inherit;
+}
+li~li{
+    background-color: black;
+    color:white;
+}
+ol li{
+    background-color: black;
+    color:white;
+}
