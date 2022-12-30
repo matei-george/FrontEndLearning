@@ -1,0 +1,63 @@
+body{
+    font-family: "Roboto Condensed",monospace;
+    color:#5c5c5c
+}
+
+h1,h2{
+    letter-spacing: 2px;
+    text-align: center;
+    text-decoration: grey wavy underline;
+    color:#2c2b2b
+}
+
+.selectors-section{
+    font-family: "Montserrat",monospace;
+}
+
+#paragraph{
+    color:blue;
+    font-weight: bold;
+}
+.selectors-section .another-paragraph{
+    text-align: center;
+    color:magenta;
+    text-decoration: dotted underline;
+    font-size: 25px;
+}
+
+/* Direct child selector */
+.selectors-section ol>li{
+    color:red;
+}
+
+/* Direct Selector */
+.selectors-section ol li{
+    color:yellowgreen;
+}
+
+/* Combinator Selector */
+.selectors-section li+li{
+    color:purple;
+}
+.selectors-section ol+p{
+    text-align: right;
+}
+
+/* General Child selector */
+.selectors-section h2~p{
+    color:red;
+}
+
+[id]{
+    font-weight: bold;
+    color:peru;
+}
+
+.inheritance-section h2{
+    letter-spacing: 3px;
+    font-family: inherit;
+    color:black;
+}
+.inheritance-section{
+    text-align: center;
+}
