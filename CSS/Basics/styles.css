@@ -1,0 +1,16 @@
+body{
+    font-family: "Montserrat",sans-serif;
+}
+
+#product-overview{
+    background-color: #ff166b;
+}
+
+h1{
+    color:white;
+    font-family: "Open Sans",sans-serif;
+}
+
+.section-title {
+    color:#2ddf5c;
+}
