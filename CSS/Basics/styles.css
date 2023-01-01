@@ -1,14 +1,19 @@
 body{
     font-family: "Montserrat",sans-serif;
+    text-align: center;
 }
 
 #product-overview{
     background-color: #ff166b;
+    border-radius: 15px;
+    width: max-content;
+    margin: auto;
 }
 
 h1{
     color:white;
     font-family: "Open Sans",sans-serif;
+    text-align: center;
 }
 
 .section-title {
