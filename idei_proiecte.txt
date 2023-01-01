@@ -12,3 +12,5 @@ TODO : Adauga mai multe idei de proiecte
         ===     Site-uri pentru proiecte    ===
 
 > znst.ro / znst.usv - Site pentru evenimentul Zile si Nopti Studentesti
+> 52loadingscree.ns
+> 52butto.ns
